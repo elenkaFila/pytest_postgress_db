@@ -6,4 +6,4 @@ RUN pip install -r requirements.txt
 
 COPY tests/ tests/
 
-CMD ["pytest", "-sv", "--junitxml=test-results/results.xml"]
+CMD ["pytest", "-sv", "--html=test-results/report.html", "--junitxml=test-results/results.xml"]
