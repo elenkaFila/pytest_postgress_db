@@ -28,5 +28,5 @@ services:
       DB_USER: test_user
       DB_PASS: test_pass 
     volumes:
-      - ./results.xml:/app/results.xml
+      - ./test-results:/app/test-result
  
