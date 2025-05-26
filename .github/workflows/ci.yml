@@ -23,7 +23,8 @@ jobs:
         with:
           name: test-results
           path: results.xml
-
+      
       - name: Display test results
         if: always()
-        run: cat results.xml
+        run: cat test-results/results.xml
+      
