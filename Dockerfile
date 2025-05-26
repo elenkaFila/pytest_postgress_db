@@ -6,4 +6,4 @@ RUN pip install -r requirements.txt
 
 COPY tests/ tests/
 
-CMD ["pytest", "-sv", "--html=test-results/report.html", "--self-contained-html", "--no-video"]
+CMD ["pytest", "-sv", "--html=test-results/report.html"]
